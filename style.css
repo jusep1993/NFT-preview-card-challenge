@@ -28,6 +28,11 @@ body{
     border-radius: 10px;
     width: 85%;
     margin: 23px;
+    
+}
+
+.card-image:hover{
+    opacity: 0.5;
 }
 
 .card-title{
@@ -36,6 +41,11 @@ body{
     color: hsl(0, 0%, 100%);
     margin: 0px;
     font-weight: 600;
+}
+
+.card-title:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .card-text{
@@ -94,7 +104,6 @@ hr{
         border-width: 0px 0px 0.1px 0px;      
 }
 
-
 .card-footer{
     position: relative;
     width: 258px;
@@ -107,7 +116,6 @@ hr{
     gap: 10px;
 }
 
-
 .card-footer-img{
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 100%;
@@ -118,8 +126,13 @@ hr{
     color: hsl(0, 0%, 100%);
 }
 
-span{
+#by{
     color: hsl(215, 51%, 70%);
+}
+
+#name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor:pointer;
 }
 
 footer{
