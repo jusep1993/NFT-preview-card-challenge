@@ -62,6 +62,7 @@ body{
 
 .card-info-value{
     color: hsl(178, 100%, 50%);
+    font-weight: 600;
 }
 
 .card-info-value, .card-info-value-logo{
@@ -73,6 +74,7 @@ body{
 
 .card-info-days-left{
     color: hsl(215, 51%, 70%);
+    font-weight: 400;
 }
 
 .card-info-days-left, .card-info-days-left-icon{
@@ -99,6 +101,7 @@ hr{
     top: 40px;
     left: 23px;
     margin: 0px;
+    font-weight: 400;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -119,9 +122,7 @@ span{
     color: hsl(215, 51%, 70%);
 }
 
-
-
-
 footer{
-
+    position: relative;
+    top: 23%;
 }
