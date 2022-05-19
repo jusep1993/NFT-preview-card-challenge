@@ -19,8 +19,10 @@ body{
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     width: 304px;
-    height: 600px;
+    height: 500px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-image{
@@ -29,10 +31,42 @@ body{
     width: 85%;
     margin: 23px;
 }
+
 .card-title{
+    position: relative;
+    left: 23px;
     color: hsl(0, 0%, 100%);
+    margin: 0px;
     font-weight: 600;
 }
+
+.card-text{
+    position: relative;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin: 0px;
+    left: 23px;
+    top: 15px;
+}
+
+.card-info, .card-info-value, .card-info-days-left{
+    position: relative;
+    margin: 0px;
+    left: 23px;
+    top: 15px;
+    display: flex;
+}
+
+
+
+.card-footer{
+    opacity: 0;
+    position: relative;
+    margin: 0px;
+    display: flex;
+}
+
+
 
 
 footer{
